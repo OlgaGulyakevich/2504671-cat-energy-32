@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Olga Gulyakevich](https://up.htmlacademy.ru/adaptive/32/user/2504671).
-* Наставник: Николай Колганов.
+* Наставник: [Николай Колганов](https://htmlacademy.ru/profile/id794007).
 
 ---
 
