@@ -18,9 +18,14 @@
     <div class="main-header__logo logo">
       <span class="visually-hidden">Логотип интернет-магазина CAT ENERGY: широкий ассортимент функционального питания для котов</span>
       <a class="logo__link" href="/" aria-current="page">
-        <img class="logo__image logo__image--primary" width="33" height="38" src="images/logo-img-primary.svg" alt="Логотип интернет-магазина CAT ENERGY" aria-hidden="true"></a>
+        <picture>
+          <source width="202" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-img-text-desktop.svg">
+          <source width="174" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-img-text-tablet.svg">
+          <img class="logo__image logo__image--primary" width="33" height="38" src="images/logo-img-mobile.svg" alt="Логотип интернет-магазина CAT ENERGY" aria-hidden="true">
+        </picture>
+      </a>
       <a class="logo__link" href="/" aria-current="page">
-        <img class="logo__image logo__image--text" width="101" height="18" src="images/logo-img-text.svg" alt="Логотип интернет-магазина CAT ENERGY" aria-hidden="true">
+        <img class="logo__image logo__image--text" width="101" height="18" src="images/logo-text-mobile.svg" alt="Логотип интернет-магазина CAT ENERGY" aria-hidden="true">
       </a>
     </div>
     <nav class="main-navigation">
@@ -50,8 +55,12 @@
     <section class="hero">
       <h1 class="hero__title">Функциональное питание для котов</h1>
       <p class="hero__description">Занялся собой? Займись котом!</p>
-      <img class="hero__image" width="280" height="270" src="images/hero-img.jpg" alt="Корм для котов Cat Energy PRO
-      500 г со вкусом курицы">
+      <picture>
+        <source width="552" height="449" type="image/png" media="(min-width: 1440px)" srcset="images/hero-img-desktop@1x.png@1x.png 1x, images/hero-img-desktop@2x.png 2x">
+        <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/hero-img-tablet@1x.png 1x, images/hero-img-tablet@2x.png 2x">
+        <img class="hero__image" width="280" height="270" src="images/hero-img-mobile@1x.png" srcset="images/hero-img-mobile@2x.png 2x" alt="Корм для котов Cat Energy PRO
+        500 г со вкусом курицы">
+      </picture>
       <a class="hero__button button button--primary" href="program-selection.html">Подобрать программу</a>
     </section>
     <section class="programs">
@@ -111,8 +120,14 @@
       <div class="examples__gallery slider">
         <figure class="examples__gallery-list slider__list">
           <figcaption class="visually-hidden">Сравнить изображение кота до и после похудения</figcaption>
-          <img class="examples__gallery-item slider__item" width="280" height="256" src="images/cat-fat.jpg" alt="Кот до похудения с Cat Energy Slim">
-          <img class="examples__gallery-item slider__item slider__item--visible" width="280" height="256" src="images/cat-slim.jpg" alt="Кот после похудения с Cat Energy Slim">
+          <picture>
+            <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/cat-before-primary@1x.png 1x, images/cat-before-primary@2x.png 2x">
+            <img class="examples__gallery-item slider__item" width="280" height="256" src="images/cat-before-mobile@1x.png" srcset="images/cat-before-mobile@2x.png 2x" alt="Кот до похудения с Cat Energy Slim">
+          </picture>
+          <picture>
+            <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/cat-after-primary@1x.png 1x, images/cat-after-primary@2x.png 2x">
+            <img class="examples__gallery-item slider__item slider__item--visible" width="280" height="256" src="images/cat-after-mobile@1x.png" srcset="images/cat-after-mobile@2x.png 2x" alt="Кот после похудения с Cat Energy Slim">
+          </picture>
         </figure>
         <label class="visually-hidden" for="slider">Перемещать метку ползунка для сравнения изображений</label>
         <input class="slider__control" type="range" min="1" max="100" value="50" name="slider__toggle" id="slider">
@@ -138,7 +153,7 @@
     <h2 class="visually-hidden">Социальные сети</h2>
     <div class="main-footer__logo logo">
       <a class="logo__link" href="/" aria-current="page">
-        <img class="logo__image logo__image--text" width="128" height="24" src="images/logo-img-text.svg" alt="Логотип интернет-магазина CAT ENERGY">
+        <img class="logo__image logo__image--text" width="128" height="24" src="images/logo-text-primary.svg" alt="Логотип интернет-магазина CAT ENERGY">
       </a>
     </div>
     <div class="main-footer__social social">
