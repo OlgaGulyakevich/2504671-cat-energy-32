@@ -3,6 +3,7 @@
 
   &__list {
     @include no-list-style;
+    @include no-margin-padding;
     width: 100%;
   }
 
@@ -10,9 +11,48 @@
     @include title (20px, 20px, $title-color-dark);
     text-transform: uppercase;
     text-align: center;
+  }
 
-    @media (max-width: 320px) {
-      margin-bottom: 46px;
-    }
+  &__link {
+    display: block;
+    width: 100%;
+    padding: 22px 50px 24px;
+    border-top: 1px solid $border-color-tertiary;
+    border-bottom: 1px solid $border-color-tertiary;
   }
 }
+
+
+// @media (min-width: $tablet-width) {
+//   .main-nav__wrapper {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 640px;
+//     margin: 0 auto;
+//   }
+
+//   .main-nav__toggle {
+//     display: none;
+//   }
+// }
+
+//menu
+
+// @media (min-width: $desktop-width) {
+//   .main-nav__wrapper {
+//     width: 960px;
+//   }
+// }
+
+// @media (min-width: $tablet-width) {
+//   .site-list {
+//     width: 570px;
+//   }
+// }
+
+// @media (min-width: $desktop-width) {
+//   .site-list {
+//     width: 780px;
+//   }
+// }
+

@@ -6,3 +6,9 @@
   padding: 0;
   list-style: none;
 }
+
+//Сброс отступов и полей
+@mixin no-margin-padding {
+  margin: 0;
+  padding: 0;
+}

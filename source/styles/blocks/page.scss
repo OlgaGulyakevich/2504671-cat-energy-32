@@ -2,14 +2,14 @@
 
 .page {
   height: 100%;
+
+  &__container {
+    flex-grow: 1;
+  }
 }
 
-.page-body {
+.page__body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
-  .page-container {
-    flex-grow: 1;
-  }
 }
