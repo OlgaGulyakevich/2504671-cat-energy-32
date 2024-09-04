@@ -1,14 +1,15 @@
 /* СТИЛИ ДЛЯ ШАПКИ САЙТА */
 
-// .main-header {
-//   display: flex;
-//   flex-direction: column;
-//   background-color: #242424;
-//   color: #ffffff;
+.main-header {
+  // display: flex;
+  // flex-direction: column;
+  background-color: $bg-color-primary;
+  color: $text-color-primary;
+}
 
-//    @media (min-width: $tablet-width) {
-//     background-color: #000000;
-//   }
+// .main-header__logo {
+//   display: flex;
+//   justify-content: space-between;
 // }
 
 // .main-header__logo {

@@ -27,11 +27,7 @@ $button-tertiary-color: #444444;
   cursor: pointer;
   transition: background-color 0.4s;
 
-  //Стили для различных типов кнопок
-
-  &--burger {
-    background-color: $button-secondary-bg;
-  }
+  //Стили для разных кнопок
 
   &--secondary {
     color: $button-secondary-color;
@@ -47,11 +43,12 @@ $button-tertiary-color: #444444;
     color: $button-tertiary-color;
   }
 
-  // Адаптация размеров кнопок для разных размеров экрана.
+  // Изменение размера кнопки в зависимости в зависимости от ширины экрана
 
-  @media (min-width: 320px) {
+  @media (max-width: $tablet-width) {
     width: 280px;
   }
 
   // Стили для состояний кнопок
 }
+

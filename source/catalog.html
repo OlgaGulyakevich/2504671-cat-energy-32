@@ -34,17 +34,14 @@
           </a>
         </div>
         <nav class="main-navigation">
-          <button class="main-navigation__button button button--burger" type="button">
-            <span class="visually-hidden">Открыть меню</span>
-          </button>
           <ul class="main-navigation__list">
-            <li class="main-navigation__item ">
-              <a class="main-navigation__link" href="index.html">
+            <li class="main-navigation__item main-navigation__item--current">
+              <a class="main-navigation__link" href="/" aria-current="page">
                 Главная
               </a>
             </li>
-            <li class="main-navigation__item main-navigation__item--current">
-              <a class="main-navigation__link" href="catalog.html" aria-current="page">
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="catalog.html">
                 Каталог продукции
               </a>
             </li>
@@ -55,6 +52,12 @@
             </li>
           </ul>
         </nav>
+        <!-- Добавить класс active для открытия меню -->
+        <button class="main-navigation__toggle button" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+          <!-- <svg class="button--burger"></svg>
+          <svg class="button--close"></svg> -->
+        </button>
       </div>
     </header>
     <main class="main-container">

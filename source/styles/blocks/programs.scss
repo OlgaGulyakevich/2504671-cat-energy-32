@@ -1,21 +1,46 @@
 .programs {
   width: 100%;
 
-  &__title {
+  .programs__title {
     @include title(24px, 37px);
     text-transform: uppercase;
+
+    &--cat-seat::before {
+      content: "";
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-image: url("../../../build/icons/stack.svg#cat-seat");
+      background-size: contain;
+      background-position: center;
+      border-radius: 50%;
+      background-color: $brand-color-primary;
+    }
+
+    &--cat-go::before {
+      content: "";
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-image: url("../../../build/icons/stack.svg#cat-go");
+      background-size: contain;
+      background-position: center;
+      border-radius: 50%;
+      background-color: $brand-color-primary;
+    }
   }
 
-  &__description {
+  .programs__description {
     font-size: 14px;
     color: $text-color-primary;
   }
 
-  &__list {
+  .programs__list {
     @include no-list-style;
   }
 
-  &__item {
+  .programs__item {
     background-color: $bg-color-secondary;
   }
 }
+

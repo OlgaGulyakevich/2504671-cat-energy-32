@@ -1,11 +1,25 @@
 .advantages {
   width: 100%;
-
-  &__title {
-    @include title(36px, 40px);
-  }
-
-  &__list {
-    @include no-list-style;
-  }
 }
+
+.advantages__title {
+  @include title(36px, 40px);
+  @include no-margin-padding;
+}
+
+.advantages__list {
+  @include no-list-style;
+  @include no-margin-padding;
+}
+
+
+// .advantages__item::before {
+//   @include flex-center;
+//   content: "";
+//   width: 60px;
+//   height: 60px;
+//   background: $bg-color-brand;
+//   background-image: url(../../icons/);
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   }

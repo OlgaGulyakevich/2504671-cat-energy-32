@@ -1,23 +1,24 @@
 .examples {
   width: 100%;
   background-color: $bg-color-tertiary;
+}
 
-  &__title {
+.examples__title {
     @include title(36px, 40px);
   }
 
-  &__number {
-    @include title(24px, 24px);
-    text-transform: uppercase;
-  }
-
-  &__detail {
-    font-size: 12px;
-    line-height: 12px;
-  }
-
-  &__outcome {
-    @include title(14px, 20px);
-    text-transform: uppercase;
-  }
+.examples__number {
+  @include title(24px, 24px);
+  text-transform: uppercase;
 }
+
+.examples__detail {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.examples__outcome {
+  @include title(14px, 20px);
+  text-transform: uppercase;
+}
+

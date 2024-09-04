@@ -1,14 +1,22 @@
 .hero {
-  background-color: $bg-color-brand;
-}
+  width: 100%;
+  max-width: 767px;
+  height: auto;
 
-.hero__title {
-  @include title (36px, 36px, $title-color-light);
-  text-align: center;
-}
+  .hero__title {
+    @include title (36px, 36px, $title-color-light);
+    text-align: center;
+  }
 
-.hero__description {
-  @include title (14px, 14px, $title-color-light);
-  text-align: center;
-  text-transform: uppercase;
+  .hero__description {
+    @include title (14px, 14p, $title-color-light);
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .hero__bg-wrapper {
+    width: 100%;
+    height: 302px;
+    background-color: $brand-color-primary;
+  }
 }
