@@ -1,3 +1,16 @@
 .main-footer {
   width: 100%;
+  max-width: 767px;
+  padding: 50px 20px;
+
+  .container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .social {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
+

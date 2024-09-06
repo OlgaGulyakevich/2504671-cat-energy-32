@@ -1,5 +1,11 @@
 .main-navigation {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  z-index: 999;
 }
 
 .main-navigation__list {
@@ -24,15 +30,21 @@
 
 .main-navigation__toggle {
   @include flex-center;
-  cursor: pointer;
 
-  .burger {
-    width: 24px;
-    height: 24px;
+  &--burger {
+    margin-left: auto;
+    transition: transform 0.3s ease, fill 0.3s ease;
+    transform-origin: center center;
+
+
+    &:hover svg {
+      transform: scale(1.2);
+      fill: $brand-color-primary;  // не работает!
+    }
+
+    &:active svg {
+      stroke: $color-active-primary;  // не работает!
+    }
   }
-
-  // .main-navigation__toggle.is-open .burger use {
-  //   href: "../../../build/icons/stack.svg#close.svg"
-  // }
 }
 

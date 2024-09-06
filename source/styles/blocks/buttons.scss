@@ -9,6 +9,7 @@ $button-tertiary-bg: #f2f2f2;
 $button-primary-color: #ffffff;
 $button-secondary-color: #000000;
 $button-tertiary-color: #444444;
+$button-hover: #5eaa2f;
 
 //Базовая стилизация кнопок
 .button {
@@ -30,8 +31,8 @@ $button-tertiary-color: #444444;
   //Стили для разных кнопок
 
   &--secondary {
-    color: $button-secondary-color;
     background-color: $button-secondary-bg;
+    color: $button-secondary-color;
   }
 
   &--slider-icon {
@@ -50,5 +51,22 @@ $button-tertiary-color: #444444;
   }
 
   // Стили для состояний кнопок
+  &:hover {
+    background-color: $button-hover;
+  }
+
+  &:active {
+    background-color: $button-hover;
+    opacity: 0.8;
+  }
+
+  &--secondary:hover {
+    background-color: $button-secondary-bg;
+  }
+
+  &--secondary:active {
+    background-color: $button-secondary-bg;
+    opacity: 0.3;
+  }
 }
 
