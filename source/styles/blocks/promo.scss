@@ -65,6 +65,7 @@
 
       &::before {
         @include absolute-center;
+        top: 30%;
       }
     }
   }
