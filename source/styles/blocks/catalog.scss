@@ -141,6 +141,7 @@
 
     .catalog__list {
       gap: 60px;
+      padding: 0 30px;
 
       .catalog__item {
         @include no-margin-padding;
@@ -239,9 +240,19 @@
   .catalog {
     padding: 0 110px;
 
-    .catalog__button-order,
-    .button--more {
-      width: 170px;
+    .catalog__list {
+      gap: 80px;
+      padding: 0;
+
+      .catalog__item {
+        max-width: 245px;
+      }
+
+      .catalog__button-order,
+      .button--more {
+        width: 170px;
+        padding: 10px 20px;
+      }
     }
   }
 }

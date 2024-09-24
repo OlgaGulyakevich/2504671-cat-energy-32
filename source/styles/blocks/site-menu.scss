@@ -66,4 +66,12 @@
       background: $brand-color-primary;
     }
   }
+
+  .site-menu--catalog {
+    .site-menu__link {
+      &:hover {
+        color: $color-hover-primary;
+      }
+    }
+  }
 }
