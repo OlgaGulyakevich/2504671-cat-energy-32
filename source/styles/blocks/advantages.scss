@@ -20,7 +20,7 @@
   .advantages__list {
     @include no-list-style;
 
-    @media (min-width: 640px) {
+    @media (min-width: 640px) and (max-width: 767px) {
       width: 80%;
     }
   }
@@ -77,7 +77,6 @@
   .advantages {
     position: relative;
     width: 100%;
-    max-width: 92%;
     padding: 45px 30px 5%;
 
     &::after {
