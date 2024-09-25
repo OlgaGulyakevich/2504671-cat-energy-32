@@ -18,6 +18,12 @@
   font-family: $primary-font;
   background-color: $bg-color-primary;
   color: $text-color-primary;
+
+  &--error {
+    @include flex-center;
+    height: 100vh;
+    background-color: $bg-color-secondary;
+  }
 }
 
 .page__container {
@@ -55,11 +61,4 @@
       background-repeat: no-repeat;
     }
   }
-}
-
-.error-page__body {
-  @include flex-center;
-  height: 100vh;
-  background-color: $bg-color-primary;
-  font-family: $primary-font;
 }
