@@ -5,8 +5,8 @@
   padding: 40px;
   background:
     linear-gradient(to bottom, $bg-color-brand-rgba 100%, transparent 20%),
-    image-set(url("../../images/bg-cat-promo-mobile-desktop@1x.jpg") 1x,
-    url("../../images/bg-cat-promo-mobile-desktop@2x.jpg") 2x);
+    image-set(url("../../images/bg-cat-promo-mobile-desktop@1x.webp") 1x,
+    url("../../images/bg-cat-promo-mobile-desktop@2x.webp") 2x);
   background-size: 100% 100%, cover;
   background-position: center, center;
   background-repeat: no-repeat;
@@ -32,20 +32,22 @@
   }
 }
 
-@media (min-width: 768px) { // TABLET
+@media (min-width: 768px) {
   .promo {
     background-size: 100% 300%;
     background-position: center center, center -233px;
 
     .promo__offer {
-      min-width: 240px;
+      @include title (1rem, 1.25, $brand-color-tertiary, $primary-font);
+      min-width: 163px;
       text-align: left;
-      margin-left: auto;
-      padding: 20px;
+      margin: auto;
+      margin-top: 37px;
+      margin-right: 83px;
 
       &::before {
         top: 53%;
-        left: 15%;
+        left: 17%;
       }
     }
   }
@@ -55,19 +57,17 @@
   .promo {
     background-size: 100% 100%, cover;
     background-position: center center;
-
     width: 100%;
     min-height: 288px;
 
     .promo__offer {
-      @include title (1rem, 1.25, $brand-color-tertiary, $primary-font);
-      max-width: 160px;
       text-align: center;
-      padding: 7px 40px;
+      margin: auto;
+      margin-bottom: 5px;
 
       &::before {
-        @include absolute-center;
-        top: 30%;
+        top: 33%;
+        left: 50%;
       }
     }
   }

@@ -50,7 +50,7 @@
       @include flex-center;
       justify-content: flex-end;
       flex-wrap: wrap;
-      gap: 31px;
+      gap: 33px;
       border: none;
       width: auto;
     }
@@ -69,12 +69,6 @@
 
 @media (min-width: 1440px) {
   .site-menu {
-    // width: 55%;
-
-    .site-menu__list {
-      // margin-left: 90%;
-    }
-
     .site-menu__link--active::after {
       background: $title-color-light;
     }
