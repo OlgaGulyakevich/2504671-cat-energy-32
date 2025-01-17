@@ -1,44 +1,46 @@
-# Личный проект «Кэт энерджи»
+# Учебный проект «Кэт энерджи»
 
-* Студент: [Olga Gulyakevich](https://up.htmlacademy.ru/adaptive/32/user/2504671).
+«Кэт энерджи» — это демонстрационный интернет-магазин функционального питания для котов. В рамках проекта сверстаны:
+
+* Главная страница (index.html),
+* Страница каталога (catalog.html).
+* Дополнительно реализованы базовые стили для 404-страницы (404.html).
+
+Проект адаптирован под мобильные, планшетные и десктопные разрешения экрана.
+Основная идея — показать навыки адаптивной верстки, использования препроцессора **Sass** и сборки **Gulp**.
+
 * Наставник: [Николай Колганов](https://htmlacademy.ru/profile/id794007).
+* Курс «[HTML и CSS. Адаптивная вёрстка и автоматизация](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
+
+
+## Cсылка на проект
+
+https://olgagulyakevich.github.io/2504671-cat-energy-32/
+
+
+## Стек технологий
+
+**HTML5** (адаптивная верстка, методология БЭМ)
+
+**Sass/SCSS** (препроцессор для CSS)
+
+**Gulp** (автоматизация сборки)
+
+**SVG-спрайт** (иконки и декоративные элементы)
+
+**RETINA** (версии @1x и @2x для растровой графики)
+
+
+
+
+## Благодарности
+
+- Команде [HTML Academy](https://htmlacademy.ru) за материалы и консультации.
+- Наставнику за поддержку и советы.
 
 ---
 
-**Обратите внимание, что папка с вашими исходными файлами для работы над проектом — `source/`.**
+#### Буду рада любым отзывам и Pull Request!
 
-_Не удаляйте и не обращайте внимание на файлы и папки:_<br>
-_`.github`, `.editorconfig`, `.eslintrc`, `.gitattributes`, `.gitignore`, `.linthtmlrc`, `.stylelintrc`, `.gulpfile.js`, `svgo.config.js` `package.json`, `package-lock.json`._
 
----
 
-### Памятка
-
-#### 1. Зарегистрируйтесь на Гитхабе
-
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
-
-#### 2. Создайте форк
-
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/2504671-cat-energy-32) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808133-3a7ace00-a190-11e9-9d29-401b02036a9c.jpg">
-
-Получится вот так:
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808135-3a7ace00-a190-11e9-9a8d-7390b3784c65.jpg">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии.
-
-#### 4. Начинайте обучение!
-
----
-
-<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github-2.png"></a>
-
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Адаптивная вёрстка и автоматизация](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
-
-[check-image]: https://github.com/htmlacademy-adaptive/2504671-cat-energy-32/workflows/Project%20check/badge.svg?branch=master
-[check-url]: https://github.com/htmlacademy-adaptive/2504671-cat-energy-32/actions
